@@ -57,7 +57,7 @@ let cat = {
   color: "orange",
 } as const;
 
-cat.name = ""; // 오류 발생 : 프로퍼티의 값 수정 불가능
+// cat.name = ""; // 오류 발생 : 프로퍼티의 값 수정 불가능
 // as const는 readonly로 취급
 
 /**
